@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tranduythanh.com.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="tranduythanh.com.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tranduythanh.com.activity.ThietLapTruongPhongActivity"
+            android:label="@string/title_activity_thiet_lap_truong_phong" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.activity.DanhSachNhanVienActivity"
+            android:label="@string/title_activity_danh_sach_nhan_vien" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.activity.ThemNhanVienActivity"
+            android:label="@string/title_activity_them_nhan_vien"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.activity.SuaNhanVienActivity"
+            android:theme="@android:style/Theme.Holo.Dialog" >
+        </activity>
+        <activity
+            android:name="tranduythanh.com.activity.ChuyenPhongBanActivity"
+            android:label="@string/title_activity_chuyen_phong_ban" >
+        </activity>
+    </application>
+
+</manifest>

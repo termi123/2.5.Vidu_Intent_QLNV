@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vidu_Intent_QLNV</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_thiet_lap_truong_phong">ThietLapTruongPhongActivity</string>
+    <string name="title_activity_danh_sach_nhan_vien">DanhSachNhanVienActivity</string>
+    <string name="title_activity_them_nhan_vien">ThemNhanVienActivity</string>
+    <string name="title_activity_chuyen_phong_ban">ChuyenPhongBanActivity</string>
+
+</resources>
